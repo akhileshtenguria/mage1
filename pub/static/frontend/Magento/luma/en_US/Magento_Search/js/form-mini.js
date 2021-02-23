@@ -1,1 +1,0 @@
-/var/www/html/demom/app/code/Magento/Search/view/frontend/web/js/form-mini.js

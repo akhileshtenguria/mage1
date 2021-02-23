@@ -1,1 +1,0 @@
-/var/www/html/demom/app/code/Magento/ProductVideo/view/adminhtml/web/js/get-video-information.js

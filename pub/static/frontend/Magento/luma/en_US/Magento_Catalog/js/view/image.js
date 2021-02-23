@@ -1,1 +1,0 @@
-/var/www/html/demom/app/code/Magento/Catalog/view/frontend/web/js/view/image.js

@@ -1,1 +1,0 @@
-/var/www/html/demom/app/code/Magento/CatalogInventory/view/adminhtml/web/js/components/use-config-settings.js

@@ -1,1 +1,0 @@
-/var/www/html/demom/app/code/Magento/Catalog/view/adminhtml/web/catalog/base-image-uploader.js

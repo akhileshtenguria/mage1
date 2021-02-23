@@ -1,1 +1,0 @@
-/var/www/html/demom/app/code/Magento/Ui/view/frontend/web/js/model/messageList.js

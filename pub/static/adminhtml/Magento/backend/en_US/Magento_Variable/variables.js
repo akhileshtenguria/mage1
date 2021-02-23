@@ -1,1 +1,0 @@
-/var/www/html/demom/app/code/Magento/Variable/view/adminhtml/web/variables.js

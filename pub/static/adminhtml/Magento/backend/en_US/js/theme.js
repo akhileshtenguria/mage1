@@ -1,1 +1,0 @@
-/var/www/html/demom/app/design/adminhtml/Magento/backend/web/js/theme.js

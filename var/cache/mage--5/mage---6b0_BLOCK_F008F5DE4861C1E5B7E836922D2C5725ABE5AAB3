@@ -1,6 +1,0 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1614058913;s:6:"expire";i:1614062513;s:4:"tags";s:57:"6b0_BLOCK_HTML,6b0_CAT_C,6b0_CAT_C_3,6b0_CAT_C_5,6b0_MAGE";}
-
-<nav class="navigation" data-action="navigation">
-    <ul data-mage-init='{"menu":{"responsive":true, "expanded":true, "position":{"my":"left top","at":"left bottom"}}}'>
-        <li  class="level0 nav-1 category-item first level-top parent"><a href="http://localhost/demom/electronics.html"  class="level-top" ><span>Electronics</span></a><ul class="level0 submenu"><li  class="level1 nav-1-1 category-item first last"><a href="http://localhost/demom/electronics/mobiles.html" ><span>Mobiles</span></a></li></ul></li><li  class="level0 nav-2 category-item last level-top"><a href="http://localhost/demom/kitchen-applience.html"  class="level-top" ><span>Kitchen applience</span></a></li>            </ul>
-</nav>

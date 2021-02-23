@@ -1,1 +1,0 @@
-/var/www/html/demom/app/code/Magento/AdminNotification/view/adminhtml/web/js/grid/columns/message.js
