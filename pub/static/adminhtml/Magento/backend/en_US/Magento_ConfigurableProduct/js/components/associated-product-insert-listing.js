@@ -1,0 +1,1 @@
+/var/www/html/demom/app/code/Magento/ConfigurableProduct/view/adminhtml/web/js/components/associated-product-insert-listing.js

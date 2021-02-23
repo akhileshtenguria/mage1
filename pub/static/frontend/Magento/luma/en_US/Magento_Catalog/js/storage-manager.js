@@ -1,0 +1,1 @@
+/var/www/html/demom/app/code/Magento/Catalog/view/frontend/web/js/storage-manager.js

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+   <fieldset name="magenest">
+       <argument name="data" xsi:type="array">
+           <item name="config" xsi:type="array">
+               <item name="label" xsi:type="string">Magenest Custom Fields</item>
+               <item name="collapsible" xsi:type="boolean">true</item>
+               <item name="dataScope" xsi:type="string">data.magenest</item>
+               <item name="sortOrder" xsi:type="number">10</item>
+           </item>
+       </argument>
+       <field name="status">
+           <argument name="data" xsi:type="array">
+               <item name="config" xsi:type="array">
+                   <item name="label" xsi:type="string" translate="true">Status</item>
+                   <item name="dataScope" xsi:type="string">status</item>
+                   <item name="sortOrder" xsi:type="number">10</item>
+                   <item name="componentType" xsi:type="string">field</item>
+                   <item name="dataType" xsi:type="string">text</item>
+                   <item name="formElement" xsi:type="string">select</item>
+                   <item name="options" xsi:type="array">
+                       <item name="0" xsi:type="array">
+                           <item name="value" xsi:type="number">0</item>
+                           <item name="label" xsi:type="string">Inactive</item>
+                       </item>
+                       <item name="1" xsi:type="array">
+                           <item name="value" xsi:type="number">1</item>
+                           <item name="label" xsi:type="string">Active</item>
+                       </item>
+                   </item>
+               </item>
+           </argument>
+       </field>
+         <field name="storeviews">
+            <argument name="data" xsi:type="array">
+                <item name="options" xsi:type="object">Magento\Cms\Ui\Component\Listing\Column\Cms\Options</item>
+                <item name="config" xsi:type="array">
+                    <item name="dataType" xsi:type="string">int</item>
+                    <item name="label" xsi:type="string" translate="true">Store View</item>
+                    <item name="formElement" xsi:type="string">multiselect</item>
+                    <item name="source" xsi:type="string">page</item>
+                    <item name="dataScope" xsi:type="string">store_id</item>
+                    <item name="default" xsi:type="string">0</item>
+                    <item name="validation" xsi:type="array">
+                        <item name="required-entry" xsi:type="boolean">true</item>
+                    </item>
+                </item>
+            </argument>
+        </field>
+       <field name="textField">
+           <argument name="data" xsi:type="array">
+               <item name="config" xsi:type="array">
+                   <item name="label" xsi:type="string" translate="true">Text Field</item>
+                   <item name="dataScope" xsi:type="string">textField</item>
+                   <item name="sortOrder" xsi:type="number">20</item>
+                   <item name="componentType" xsi:type="string">field</item>
+                   <item name="dataType" xsi:type="string">text</item>
+                   <item name="formElement" xsi:type="string">input</item>
+               </item>
+           </argument>
+       </field>
+   </fieldset>
+</form>

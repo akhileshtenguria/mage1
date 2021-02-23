@@ -1,0 +1,1 @@
+/var/www/html/demom/app/code/Magento/Checkout/view/frontend/web/js/view/minicart.js

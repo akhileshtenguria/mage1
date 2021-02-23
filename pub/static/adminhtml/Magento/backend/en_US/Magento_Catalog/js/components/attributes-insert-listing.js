@@ -1,0 +1,1 @@
+/var/www/html/demom/app/code/Magento/Catalog/view/adminhtml/web/js/components/attributes-insert-listing.js

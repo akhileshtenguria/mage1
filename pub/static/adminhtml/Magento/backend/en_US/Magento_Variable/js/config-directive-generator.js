@@ -1,0 +1,1 @@
+/var/www/html/demom/app/code/Magento/Variable/view/adminhtml/web/js/config-directive-generator.js

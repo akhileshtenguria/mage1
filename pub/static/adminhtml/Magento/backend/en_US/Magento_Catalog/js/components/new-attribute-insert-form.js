@@ -1,0 +1,1 @@
+/var/www/html/demom/app/code/Magento/Catalog/view/adminhtml/web/js/components/new-attribute-insert-form.js

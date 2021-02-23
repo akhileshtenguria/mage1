@@ -1,0 +1,1 @@
+/var/www/html/demom/app/code/Magento/Backend/view/adminhtml/web/js/media-uploader.js

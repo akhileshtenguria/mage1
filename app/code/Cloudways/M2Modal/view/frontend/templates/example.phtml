@@ -1,0 +1,33 @@
+
+<div id="modal-content"  style="display: none;">
+	<form class="form" action="result" method="post">
+    <?php 
+     $currentstore= $block->getStoreCode();
+     // die; 
+    $storelist = $block->getContent(); 
+
+    // print_r($storelist); ?>
+    <div>Select Store View</div>
+    <div>
+	    <select>
+	    	<?php foreach ($storelist as $key => $stores) {
+	    		 ?>
+	    	<option value="<?php echo  $key; ?>" <?php echo ($currentstore==$key) ? 'selected':'';?>><?php echo  $stores; ?></option>
+			<?php     	}?>
+	    </select>
+    </div>
+    <div  class="my-50"  style="margin-top:30px;">
+    <div class="actions-toolbar text-right">
+        <div class="primary">
+            <button type="submit" class="action submit primary" title="<?php /* @escapeNotVerified */ echo __('Submit') ?>">
+                <span><?php /* @escapeNotVerified */ echo __('Submit') ?></span>
+            </button>
+        </div>
+    </div>
+    </div>
+</form>
+</div>
+<div data-mage-init='{"example-modal": {"target": "#modal-content"}}'>
+    
+</div>
+

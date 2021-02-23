@@ -1,0 +1,1 @@
+/var/www/html/demom/app/code/Cloudways/M2Modal/view/frontend/web/js/example-modal.js
